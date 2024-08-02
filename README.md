@@ -6,7 +6,6 @@ This project demonstrates how to create an eye-controlled mouse using Python, Op
 
 - **Eye Tracking:** Control the mouse cursor based on eye movements.
 - **Blink Detection:** Simulate a mouse click when a blink is detected.
-- **Click Simulation**: Simulates a mouse click when a blink or specific eye movement is detected.
 
 ## Requirements
 
