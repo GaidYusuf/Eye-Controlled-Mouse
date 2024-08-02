@@ -50,7 +50,7 @@ This project demonstrates how to create an eye-controlled mouse using Python, Op
 The main components of the code are:
 
 1. **Setting up the Environment:**
-   - Initializes the webcam and libraries.
+   - Initializes the webcam and necessary libraries.
 
 2. **Capturing Video from Webcam:**
    - Captures frames from the webcam for processing.
@@ -62,4 +62,23 @@ The main components of the code are:
    - Calculates the position of the eyes and moves the mouse cursor accordingly.
 
 5. **Interacting with the Screen:**
-   - Detects blinks (by measuring the distance between two landmarks) to simulate mouse clicks.
+   - Detects blinks (by measuring the distance between two landmarks on the left eye) to simulate mouse clicks.
+
+## Notes
+
+- **Blink Detection:** Currently, blinks are detected only using landmarks from the left eye. Adjustments may be needed for more accurate detection or for using landmarks from both eyes.
+
+## Contributing
+
+Feel free to fork the repository and submit pull requests for improvements. If you encounter any issues or have suggestions, please open an issue in the repository.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [OpenCV](https://opencv.org/) for computer vision tasks.
+- [Mediapipe](https://google.github.io/mediapipe/) for face landmark detection.
+- [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/) for controlling the mouse.
+
