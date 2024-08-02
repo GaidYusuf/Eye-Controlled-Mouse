@@ -26,7 +26,7 @@ This project demonstrates how to create an eye-controlled mouse using Python, Op
 2. **Install the Required Libraries:**
 
     ```bash
-    pip install opencv-python mediapipe pyautogui numpy
+    pip install opencv-python mediapipe pyautogui
     ```
 
 ## Usage
